@@ -4,21 +4,21 @@
 
 ### Compilação
 ```
-$ mpicc friendly_mpi.c -o friendly_mpi
+$ mpicc mpi_friendly_numbers.c -o mpi_friendly_numbers
 ```
 
 ### Execução
 ```
 
-$ mpirun -np 2 ./friendly_mpi 1 800000
+$ mpirun -np 2 ./mpi_friendly_numbers 1 800000 --hostfile hosts.txt
 
-$ mpirun -np 4 ./friendly_mpi 1 800000
+$ mpirun -np 4 ./mpi_friendly_numbers 1 800000 --hostfile hosts.txt
 
-$ mpirun -np 8 ./friendly_mpi 1 800000
+$ mpirun -np 8 ./mpi_friendly_numbers 1 800000 --hostfile hosts.txt
 
-$ mpirun -np 16 ./friendly_mpi 1 800000
+$ mpirun -np 16 ./mpi_friendly_numbers 1 800000 --hostfile hosts.txt
 
-$ mpirun -np 32 ./friendly_mpi 1 800000
+$ mpirun -np 32 ./mpi_friendly_numbers 1 800000 --hostfile hosts.txt
 
 ```
 
