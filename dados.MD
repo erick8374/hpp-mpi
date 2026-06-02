@@ -32,12 +32,26 @@ Dados:
 (5)
 
 # Paralelo 16 processos
-(1)  
+(1)
+real    1m59,411s
+user    5m26,558s
+sys     1m41,734s  
 (2)
+real    2m1,263s
+user    5m26,871s
+sys     1m45,810s
 (3)
+real    2m1,307s
+user    5m28,970s
+sys     1m44,887s
 (4)
+real    2m1,525s
+user    5m24,548s
+sys     1m43,705s
 (5)
-
+real    1m59,684s
+user    5m23,308s
+sys     1m41,215s
 # Paralelo 32 processos
 (1)  
 real    0m50,383s
